@@ -1,0 +1,86 @@
+html body{
+    height: 100vh;
+    margin: 0;
+    background-color: #87b5b5;
+}
+.root{
+    width: 100vh;
+    background-color: #87b5b5;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87b5b5;
+    width: 100%;
+}
+div{
+    display: block;
+}
+.subcont{
+    width: 100%;
+}
+
+
+.editor_container .toolbar {
+    width: 99%;
+    border: 2px solid black;
+}
+
+.editor_container textarea{
+    width: 99%;
+    min-height: 200px;
+    border: 2px solid black;
+}
+.editor_container{
+    margin:1.125rem auto;
+    max-width: 600px;
+    
+}
+
+.toolbar{
+    display: flex;
+    align-items: center;
+    background-color: #4aa3a3;
+    border: 2px solid black;
+}
+
+.previewer_container{
+    max-width: 800px;
+    min-height: 200px;
+    margin:1.125rem auto;
+   
+}
+
+.previewer_container .toolbar{
+    width: 99%;
+}
+
+.Viewer{
+    min-height: 200px;
+}
+
+.content{
+    width: 99%;
+    min-height: 200px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.toolbar .icons{
+    width: 25px;
+    margin: 5px;
+}
+
+.toolbar .expand_contract{
+    margin-left: auto;
+}
+
+.buttons_ec{
+    background-color:#4aa3a3;
+    border:None;
+}
+
+
+
